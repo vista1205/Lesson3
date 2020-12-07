@@ -10,6 +10,8 @@ namespace Asteroids
 {
     class Bullet : BaseObject
     {
+        public static event Action<string> buuletOut;
+        public static event Action<string> bulletDest;
         public Bullet(Point pos, Point dir, Size size) : base(pos, dir, size) { }
 
 
@@ -21,6 +23,22 @@ namespace Asteroids
         public override void Update()
         {
             Pos.X = Pos.X + 35;
+        }
+        public bool BullOutScreen()
+        {
+            if (Pos.X > Game.Width)
+            {
+                buuletOut?.Invoke($"{DateTime.Now}: Пуля вышла за пределы экрана");
+                return true;
+            }
+            else
+            {
+                return false;
+            }
+        }
+        public void Destroy()
+        {
+            bulletDest?.Invoke($"{DateTime.Now}: Пуля уничтожена");
         }
     }
 }

@@ -24,8 +24,29 @@ namespace Asteroids
         static Game()
         {
         }
+        public static void LogOn()
+        {
+            Asteroid.asteroidCreate += Logging.Log;
+            Asteroid.asteroidRec += Logging.Log;
+            Ship.shipDie += Logging.Log;
+            Ship.shipHigh += Logging.Log;
+            Ship.shipLow += Logging.Log;
+            Bullet.bulletDest += Logging.Log;
+            Bullet.buuletOut += Logging.Log;
+        }
+        public static void LogOff()
+        {
+            Asteroid.asteroidCreate -= Logging.Log;
+            Asteroid.asteroidRec -= Logging.Log;
+            Ship.shipDie -= Logging.Log;
+            Ship.shipHigh -= Logging.Log;
+            Ship.shipLow -= Logging.Log;
+            Bullet.bulletDest -= Logging.Log;
+            Bullet.buuletOut -= Logging.Log;
+        }
         public static void Init(Form form)
-        {          
+        {
+            LogOn();
             Graphics g;
             _context = BufferedGraphicsManager.Current;
             g = form.CreateGraphics();
@@ -45,6 +66,7 @@ namespace Asteroids
 
         private static void Finish()
         {
+            LogOff();
             timer.Stop();
             Buffer.Graphics.DrawString("The End!", new Font(FontFamily.GenericSansSerif, 60, FontStyle.Underline), Brushes.White, 200, 100);
             Buffer.Render();
@@ -97,8 +119,6 @@ namespace Asteroids
 
         public static void Load()
         {
-            //_bullet = new Bullet(new Point(0, 200), new Point(5, 0), new Size(54, 9));
-
             var random = new Random();
             _asteroids = new Asteroid[15];
             for (int i = 0; i < _asteroids.Length; i++)
@@ -122,14 +142,6 @@ namespace Asteroids
 
         public static void Update()
         {
-            //foreach (var asteroid in _asteroids)
-            //{
-            //    asteroid.Update();
-            //    if (asteroid.Collision(_bullet))
-            //    {
-
-            //    }
-            //}
             for( int i = 0; i < _asteroids.Length; i++)
             {             
                 if (_asteroids[i] == null) continue;
@@ -138,6 +150,7 @@ namespace Asteroids
                 {
                     System.Media.SystemSounds.Hand.Play();
                     _asteroids[i] = null;
+                    _bullet.Destroy();
                     _bullet = null;
                     _score++;
                     continue;
@@ -162,7 +175,6 @@ namespace Asteroids
             {
                 if (_ship.Collision(_medkit[i]))
                 {
-                    _medkit[i].Recreate();
                     _ship.EnergyHigh(_medkit[i].Power);
                     System.Media.SystemSounds.Exclamation.Play();
                 }

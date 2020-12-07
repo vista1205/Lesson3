@@ -51,6 +51,7 @@
     <Compile Include="Bullet.cs" />
     <Compile Include="Game.cs" />
     <Compile Include="ICollision.cs" />
+    <Compile Include="Logging.cs" />
     <Compile Include="MedKit.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

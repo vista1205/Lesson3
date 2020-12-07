@@ -34,3 +34,11 @@ C:\Users\kozlovvo\source\repos\Lesson3\Lesson3\Asteroids\obj\Debug\Asteroids.csp
 C:\Users\kozlovvo\source\repos\Lesson3\Lesson3\Asteroids\obj\Debug\Asteroids.exe
 C:\Users\kozlovvo\source\repos\Lesson3\Lesson3\Asteroids\obj\Debug\Asteroids.pdb
 C:\Users\kozlovvo\source\repos\Lesson3\Lesson3\Asteroids\obj\Debug\Asteroids.csprojAssemblyReference.cache
+C:\Users\Family\Desktop\Учёба\GeekBrains\Основы языка C# 2 уровень\Задания\Lesson3\Lesson3\Asteroids\bin\Debug\Asteroids.exe.config
+C:\Users\Family\Desktop\Учёба\GeekBrains\Основы языка C# 2 уровень\Задания\Lesson3\Lesson3\Asteroids\bin\Debug\Asteroids.exe
+C:\Users\Family\Desktop\Учёба\GeekBrains\Основы языка C# 2 уровень\Задания\Lesson3\Lesson3\Asteroids\bin\Debug\Asteroids.pdb
+C:\Users\Family\Desktop\Учёба\GeekBrains\Основы языка C# 2 уровень\Задания\Lesson3\Lesson3\Asteroids\obj\Debug\Asteroids.Properties.Resources.resources
+C:\Users\Family\Desktop\Учёба\GeekBrains\Основы языка C# 2 уровень\Задания\Lesson3\Lesson3\Asteroids\obj\Debug\Asteroids.csproj.GenerateResource.cache
+C:\Users\Family\Desktop\Учёба\GeekBrains\Основы языка C# 2 уровень\Задания\Lesson3\Lesson3\Asteroids\obj\Debug\Asteroids.csproj.CoreCompileInputs.cache
+C:\Users\Family\Desktop\Учёба\GeekBrains\Основы языка C# 2 уровень\Задания\Lesson3\Lesson3\Asteroids\obj\Debug\Asteroids.exe
+C:\Users\Family\Desktop\Учёба\GeekBrains\Основы языка C# 2 уровень\Задания\Lesson3\Lesson3\Asteroids\obj\Debug\Asteroids.pdb
