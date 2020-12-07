@@ -33,3 +33,4 @@ C:\Users\kozlovvo\source\repos\Lesson3\Lesson3\Asteroids\obj\Debug\Asteroids.csp
 C:\Users\kozlovvo\source\repos\Lesson3\Lesson3\Asteroids\obj\Debug\Asteroids.csproj.CoreCompileInputs.cache
 C:\Users\kozlovvo\source\repos\Lesson3\Lesson3\Asteroids\obj\Debug\Asteroids.exe
 C:\Users\kozlovvo\source\repos\Lesson3\Lesson3\Asteroids\obj\Debug\Asteroids.pdb
+C:\Users\kozlovvo\source\repos\Lesson3\Lesson3\Asteroids\obj\Debug\Asteroids.csprojAssemblyReference.cache

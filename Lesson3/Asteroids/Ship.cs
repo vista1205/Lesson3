@@ -51,8 +51,8 @@ namespace Asteroids
             if (Pos.X > 0) Pos.X = Pos.X + Dir.X;
         }
         public void Left()
-        {
-            if (Pos.X < Game.Width) Pos.X = Pos.X - Dir.X;
+        {            
+            if (Pos.X < Game.Width && Pos.X>0) Pos.X = Pos.X - Dir.X;
         }
 
         public void Die()

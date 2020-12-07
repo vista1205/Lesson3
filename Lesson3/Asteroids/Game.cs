@@ -13,6 +13,7 @@ namespace Asteroids
         static Bullet _bullet;
         private static MedKit[] _medkit;
         private static Ship _ship = new Ship(new Point(10, 400), new Point(5, 5), new Size(45, 50));
+        private static int _score;
 
         private static BufferedGraphicsContext _context;
         public static BufferedGraphics Buffer;
@@ -89,6 +90,7 @@ namespace Asteroids
             {
                 obj?.Draw();
             }
+            Buffer.Graphics.DrawString("Скорость: " + _score, SystemFonts.DefaultFont, Brushes.White, 80, 0);
 
             Buffer.Render();
         }
@@ -119,18 +121,17 @@ namespace Asteroids
         }
 
         public static void Update()
-        {        
+        {
             //foreach (var asteroid in _asteroids)
             //{
             //    asteroid.Update();
             //    if (asteroid.Collision(_bullet))
             //    {
-                    
+
             //    }
             //}
-
             for( int i = 0; i < _asteroids.Length; i++)
-            {
+            {             
                 if (_asteroids[i] == null) continue;
                 _asteroids[i].Update();
                 if (_bullet != null && _bullet.Collision(_asteroids[i]))
@@ -138,6 +139,7 @@ namespace Asteroids
                     System.Media.SystemSounds.Hand.Play();
                     _asteroids[i] = null;
                     _bullet = null;
+                    _score++;
                     continue;
                 }
                 if (!_ship.Collision(_asteroids[i])) continue;
