@@ -1,0 +1,14 @@
+C:\sources\geekbrains\C# Уровень 2\Урок 3\Lesson3\SApp01\bin\Debug\SApp01.exe.config
+C:\sources\geekbrains\C# Уровень 2\Урок 3\Lesson3\SApp01\bin\Debug\SApp01.exe
+C:\sources\geekbrains\C# Уровень 2\Урок 3\Lesson3\SApp01\bin\Debug\SApp01.pdb
+C:\sources\geekbrains\C# Уровень 2\Урок 3\Lesson3\SApp01\obj\Debug\SApp01.csprojAssemblyReference.cache
+C:\sources\geekbrains\C# Уровень 2\Урок 3\Lesson3\SApp01\obj\Debug\SApp01.csproj.CoreCompileInputs.cache
+C:\sources\geekbrains\C# Уровень 2\Урок 3\Lesson3\SApp01\obj\Debug\SApp01.exe
+C:\sources\geekbrains\C# Уровень 2\Урок 3\Lesson3\SApp01\obj\Debug\SApp01.pdb
+C:\sources\geekbrains\C# Уровень 2\Sandbox\Lesson3\SApp01\obj\Debug\SApp01.csprojAssemblyReference.cache
+C:\sources\geekbrains\C# Уровень 2\Sandbox\Lesson3\SApp01\obj\Debug\SApp01.csproj.CoreCompileInputs.cache
+C:\sources\geekbrains\C# Уровень 2\Sandbox\Lesson3\SApp01\obj\Debug\SApp01.exe
+C:\sources\geekbrains\C# Уровень 2\Sandbox\Lesson3\SApp01\obj\Debug\SApp01.pdb
+C:\sources\geekbrains\C# Уровень 2\Sandbox\Lesson3\SApp01\bin\Debug\SApp01.exe.config
+C:\sources\geekbrains\C# Уровень 2\Sandbox\Lesson3\SApp01\bin\Debug\SApp01.exe
+C:\sources\geekbrains\C# Уровень 2\Sandbox\Lesson3\SApp01\bin\Debug\SApp01.pdb
